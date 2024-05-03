@@ -1,0 +1,66 @@
+
+*{
+    font-family: 'Times New Roman';
+}
+
+#box {
+    background-color: blue;
+    border: solid salmon ;
+    border-radius: 30px;
+    /* this takes precedence over border initial setter */
+    border-color: red;
+
+}
+
+.heading {
+    color: red;
+}
+
+h1,h3 {
+    font-weight: 300;
+    text-decoration: overline;
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+button {
+    background-color: green;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    line-height: 13px;
+    /* font-family: 'Helvetica Neue', sans-serif, Helvetica, sans-serif; */
+    text-transform: capitalize;
+
+}
+
+.pseudo {
+    height: 100px;
+    width: 100px;
+    border: 2px dotted paleturquoise;
+    background-color: bisque;
+    border-radius: 23px;
+    text-align: center;
+}
+
+#outer {
+    background-color: green;
+    font-size: 25px;
+    width: max-content;
+}
+
+#inner {
+    font-size: 10px;
+}

@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 25px;
+}
+
+.iv {
+    height: 250px;
+    width: 250px;
+    border: 1px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;    
+    background-image: url('photo.png');
+    background-size: cover;
+}

@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#box1 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#box2 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#box3 {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#box4 {
+    background-color: rgba(255, 255, 0, 0.5);
+}
