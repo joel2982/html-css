@@ -1,0 +1,17 @@
+.loader {
+    height: 300px; 
+    width: 300px;
+    border: 30px solid #ffe66d;
+    border-left: 30px solid #ff6b6b ;
+    border-radius: 50%;
+    animation: loaderAnimation 3s steps(100) 0s infinite normal ;
+}
+
+@keyframes loaderAnimation {
+    from  {
+        transform: rotate(0deg);
+    }
+    to  {
+        transform: rotate(360deg);
+    }
+}
